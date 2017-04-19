@@ -15,6 +15,11 @@
 		BD0EC4F51D81520200DFD09A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD0EC4F31D81520200DFD09A /* LaunchScreen.storyboard */; };
 		BD0EC5001D81520200DFD09A /* NMTickerViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EC4FF1D81520200DFD09A /* NMTickerViewTests.swift */; };
 		BD0EC50B1D81520200DFD09A /* NMTickerViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EC50A1D81520200DFD09A /* NMTickerViewUITests.swift */; };
+		BD0EC5191D81554A00DFD09A /* TickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EC5181D81554A00DFD09A /* TickerViewController.swift */; };
+		BD0EC51B1D81557D00DFD09A /* NMTickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD0EC51A1D81557D00DFD09A /* NMTickerView.swift */; };
+		BD0EC51D1D8155E000DFD09A /* graph.png in Resources */ = {isa = PBXBuildFile; fileRef = BD0EC51C1D8155E000DFD09A /* graph.png */; };
+		BD0EC5211D8159A100DFD09A /* NMTickerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD0EC51F1D8159A100DFD09A /* NMTickerCell.xib */; };
+		BDF5432C1D8407D400EA184A /* NMTickerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF5432B1D8407D400EA184A /* NMTickerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +54,11 @@
 		BD0EC5061D81520200DFD09A /* NMTickerViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NMTickerViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD0EC50A1D81520200DFD09A /* NMTickerViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NMTickerViewUITests.swift; sourceTree = "<group>"; };
 		BD0EC50C1D81520200DFD09A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD0EC5181D81554A00DFD09A /* TickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TickerViewController.swift; sourceTree = "<group>"; };
+		BD0EC51A1D81557D00DFD09A /* NMTickerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMTickerView.swift; sourceTree = "<group>"; };
+		BD0EC51C1D8155E000DFD09A /* graph.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = graph.png; sourceTree = "<group>"; };
+		BD0EC51F1D8159A100DFD09A /* NMTickerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NMTickerCell.xib; sourceTree = "<group>"; };
+		BDF5432B1D8407D400EA184A /* NMTickerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NMTickerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +116,11 @@
 				BD0EC4F31D81520200DFD09A /* LaunchScreen.storyboard */,
 				BD0EC4F61D81520200DFD09A /* Info.plist */,
 				BD0EC4EE1D81520200DFD09A /* NMTickerView.xcdatamodeld */,
+				BD0EC5181D81554A00DFD09A /* TickerViewController.swift */,
+				BD0EC51A1D81557D00DFD09A /* NMTickerView.swift */,
+				BD0EC51C1D8155E000DFD09A /* graph.png */,
+				BDF5432B1D8407D400EA184A /* NMTickerCell.swift */,
+				BD0EC51F1D8159A100DFD09A /* NMTickerCell.xib */,
 			);
 			path = NMTickerView;
 			sourceTree = "<group>";
@@ -234,6 +249,8 @@
 			files = (
 				BD0EC4F51D81520200DFD09A /* LaunchScreen.storyboard in Resources */,
 				BD0EC4F21D81520200DFD09A /* Assets.xcassets in Resources */,
+				BD0EC51D1D8155E000DFD09A /* graph.png in Resources */,
+				BD0EC5211D8159A100DFD09A /* NMTickerCell.xib in Resources */,
 				BD0EC4ED1D81520100DFD09A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,7 +278,10 @@
 			files = (
 				BD0EC4EA1D81520100DFD09A /* ViewController.swift in Sources */,
 				BD0EC4E81D81520100DFD09A /* AppDelegate.swift in Sources */,
+				BD0EC51B1D81557D00DFD09A /* NMTickerView.swift in Sources */,
+				BD0EC5191D81554A00DFD09A /* TickerViewController.swift in Sources */,
 				BD0EC4F01D81520200DFD09A /* NMTickerView.xcdatamodeld in Sources */,
+				BDF5432C1D8407D400EA184A /* NMTickerCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,6 +508,7 @@
 				BD0EC5111D81520200DFD09A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD0EC5121D81520200DFD09A /* Build configuration list for PBXNativeTarget "NMTickerViewTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +517,7 @@
 				BD0EC5141D81520200DFD09A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD0EC5151D81520200DFD09A /* Build configuration list for PBXNativeTarget "NMTickerViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +526,7 @@
 				BD0EC5171D81520200DFD09A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
